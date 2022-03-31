@@ -1,0 +1,25 @@
+{
+  "name": "b_35_32bangla_32terminal",
+  "main": "main.js",
+  "productName": "B# Bangla Terminal",
+  "description": "B# Bangla Terminal",
+  "author": "RTBRuhan",
+  "version": "0.0.1",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "8.2.5",
+    "electron-builder": "22.9.1"
+  },
+  "build": {
+    "appId": "com.RTB.Bangal",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}
